@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+    <xs:element name="vehicle_shop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="address" type="xs:string" />
+                <xs:element name="telephone_number" type="xs:string" />
+                <xs:element name="web_address" type="xs:anyURI" />
+                <xs:element name="logo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="img">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="src"/>
+                                            <xs:attribute type="xs:string" name="alt"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="vehicle" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="brand_name" type="xs:string" />
+                            <xs:element name="description" type="xs:string" />
+                            <xs:element name="quantity" type="xs:string" />
+                            <xs:element name="car">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="color" type="xs:string" />
+                                        <xs:element name="price" type="xs:string" />
+                                        <xs:element name="number_of_doors" type="xs:string" />
+                                        <xs:element name="engine">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="number_of_cylinder" type="xs:string" use="optional" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="year" type="xs:integer" use="optional" />
+                                    <xs:attribute name="model" type="xs:string" use="optional" />
+                                    <xs:attribute name="carType" type="xs:string" use="optional" />
+                                    <xs:attribute name="manufacturer" type="xs:string" use="optional" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="category" type="xs:string" use="optional" />
+                        <xs:attribute name="item_number" type="xs:string" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_studentID.css"?> 
+<vehicle_shop xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com catalog_studentID.xsd">
+    <name>ABC Company</name>
+    <address>Kathmandu, Nepal</address>
+    <telephone_number>(+977) 9867676767</telephone_number>
+    <web_address>www.sales.abc.com</web_address>
+    <logo>
+        <img src="index.png" alt="abc"/>
+    </logo>
+    <vehicle category="sedan" item_number="1">
+        <brand_name>Hyundai</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 cars available</quantity>
+        <car year="2012" model="Impala" carType="fuel" manufacturer="Hynudai">
+            <color>Red Color</color>
+            <price>$8000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="hatchback" item_number="2">
+        <brand_name>Ford</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2012" model="Impala" carType="fuel" manufacturer="Ford">
+            <color>Blue in color</color>
+            <price>$10000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="sedan" item_number="3">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2016" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$15000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="4">
+        <brand_name>Toyota</brand_name>
+        <description>Bought last year. Is still in great condition.</description>
+        <quantity>2 available</quantity>
+        <car year="2016" model="Fortuner" carType="fuel" manufacturer="Toyota">
+            <color>Black color</color>
+            <price>$10000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="sedan" item_number="5">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2018" model="Yaris" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$12000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="6">
+        <brand_name>Ford</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2015" model="Eco Sport" carType="fuel" manufacturer="Ford">
+            <color>Red color</color>
+            <price>$15000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="sedan" item_number="7">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2019" model="Corolla" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$20000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="8">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2019" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$18000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="9">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2016" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Black color</color>
+            <price>$15000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="10">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2016" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Red color</color>
+            <price>$14000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="11">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2016" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Gray color</color>
+            <price>$15000</price>
+            <number_of_doors>4</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="sedan" item_number="12">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2016" model="Corolla" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$15000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="sedan" item_number="13">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2019" model="corolla" carType="fuel" manufacturer="Toyota">
+            <color>Black color</color>
+            <price>$18000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="14">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2016" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Brown color</color>
+            <price>$12000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="15">
+        <brand_name>Toyoto</brand_name>
+        <description>In great condition.</description>
+        <quantity>3 available</quantity>
+        <car year="2020" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$19000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+    <vehicle category="suv" item_number="16">
+        <brand_name>Mercedes</brand_name>
+        <description>Great SUV for a family.</description>
+        <quantity>1 available</quantity>
+        <car year="2016" model="Impala" carType="fuel" manufacturer="Toyota">
+            <color>Silver color</color>
+            <price>$20000</price>
+            <number_of_doors>4 doors</number_of_doors>
+            <engine number_of_cylinder="8 cylinders"></engine>
+        </car>
+    </vehicle>
+</vehicle_shop>
