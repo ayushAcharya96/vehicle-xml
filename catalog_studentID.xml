@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="catalog_studentID.css"?> 
-<vehicle_shop xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com catalog_studentID.xsd">
+<vehicle_shop xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3.org catalog_studentID.xsd">
+    <logo>
+        <img src="index.png" /> 
+    </logo>
     <name>ABC Company</name>
     <address>Kathmandu, Nepal</address>
     <telephone_number>(+977) 9867676767</telephone_number>
     <web_address>www.sales.abc.com</web_address>
-    <logo>
-        <img src="index.png" alt="abc"/>
-    </logo>
     <vehicle category="sedan" item_number="1">
         <brand_name>Hyundai</brand_name>
         <description>In great condition.</description>

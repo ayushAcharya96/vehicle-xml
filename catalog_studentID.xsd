@@ -1,17 +1,13 @@
 <?xml version="1.0"?>
 <!-- <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
+targetNamespace="http://www.w3.org/1999/xhtml"
+xmlns="http://www.w3.org/1999/xhtml"
 elementFormDefault="qualified">
 
     <xs:element name="vehicle_shop">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="name" type="xs:string" />
-                <xs:element name="address" type="xs:string" />
-                <xs:element name="telephone_number" type="xs:string" />
-                <xs:element name="web_address" type="xs:anyURI" />
                 <xs:element name="logo">
                     <xs:complexType>
                         <xs:sequence>
@@ -28,6 +24,10 @@ elementFormDefault="qualified">
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="address" type="xs:string" />
+                <xs:element name="telephone_number" type="xs:string" />
+                <xs:element name="web_address" type="xs:anyURI" />
                 <xs:element name="vehicle" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
